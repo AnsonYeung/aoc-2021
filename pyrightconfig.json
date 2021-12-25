@@ -1,0 +1,7 @@
+{
+    "reportWildcardImportFromLibrary": false,
+    "reportUndefinedVariable": "none",
+    "reportOptionalMemberAccess": "none",
+    "reportGeneralTypeIssues": "none",
+    "reportOptionalSubscript": false
+}

@@ -1,0 +1,8 @@
+-std=c++17
+-fsanitize=address
+-fsanitize=undefined
+-DLOCAL
+-Wall
+-Wno-sign-compare
+-Og
+-g

@@ -1,0 +1,6 @@
+#!/bin/sh
+DAY=`cat day`
+echo `expr $DAY + 1` > day
+mkdir -p "d$DAY"
+cp -n templates/* "d$DAY"
+curl "https://adventofcode.com/2021/day/$DAY/input" --cookie "session=`cat session`" -o "d$DAY/input.txt"
